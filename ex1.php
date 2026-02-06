@@ -1,6 +1,12 @@
-<html>
+<?php
+       $title="HomePage";
+       $md="Use an appropriate md";
+       include 'header.php';
+       ?>
+       <?php include  'sidebar.php'; ?>
+       <html>
     <body>
-        <h3>"Hello World!";<h3>
+        <h3>"Hello world! My name is "David";<h3>
     </body>
 </html>
 <?php
@@ -16,9 +22,9 @@ echo $title;
 <?php
 $g1 = 5;
 $g2 = 4;
-$g3 = 3;
+$g3 = 5;
 ?>
-
+ 
 <table border="5" cellpadding="8">
     <tr>
         <th>S.n.</th>
@@ -40,10 +46,12 @@ $g3 = 3;
         <td>Neky</td>
         <td><?php echo $g3; ?></td>
     </tr>
-   
+
     </tr>
 
    
 </table>
- <div>
-        <img src="screenshot.png" width="70%" > </div>
+
+
+
+    <?php include 'footer.php'; ?>
