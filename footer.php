@@ -1,7 +1,8 @@
-<footer>
-        <p>&copy; 2026 Your Website. All rights reserved.</p>
+</section>
 
-        <!-- Your footer content goes here -->
-    </footer>
+<footer>
+  <p>© <?php echo date("Y"); ?> My Website</p>
+</footer>
+
 </body>
 </html>
