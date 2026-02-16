@@ -15,7 +15,7 @@
                 <li><a href="#">Collections</a></li>
                 <li><a href="#">Designers</a></li>
                 <li><a href="#">Journal</a></li>
-                <li><a href="#">Register</a></li>
+                <li><a href="register.php">Register</a></li>
             </ul>
         </div>
     </nav>
