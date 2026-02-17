@@ -21,6 +21,9 @@
 </nav>
 
 <h1 style="text-align:center; margin-top:40px;">Our Collection</h1>
+<div style="text-align:center; margin-top:20px;">
+    <a href="add_product.php" class="btn">Add New Product</a>
+</div>
 
 <div class="products-container" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; margin:40px;">
 
