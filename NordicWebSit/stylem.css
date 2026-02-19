@@ -1,0 +1,25 @@
+.register-form {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    font-size: 1rem;
+    background: transparent;
+}
+
+.register-form input:focus {
+    outline: none;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.register-form button {
+    margin-top: 1rem;
+    width: 100%;
+}
