@@ -74,8 +74,8 @@ https://shell.hamk.fi/amk100/project/products.php
 List the database tables that are part of your project. 
 
 - Table 1 (Mitra): Users 
-- Table 2 (Mitra): products 
-- Table 3 (Mitra): order
+- Table 2 (Tian): products 
+- Table 3 (Oluchi): cart
 - Table 3 (Mitra): order_items
 
 > Include the ER Diagram of the database. 
