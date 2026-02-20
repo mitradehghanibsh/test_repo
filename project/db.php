@@ -1,14 +1,23 @@
 <?php
-$servername = "db"; // Replace with your MySQL server hostname
-$username = "root";     // Replace with your MySQL username
-$password = "password";     // Replace with your MySQL password
-$dbname = "mdsql";          // Replace with your MySQL database name
+$servername = "localhost";
+$username = "root";
+$password = "";  // XAMPP 默认空密码
+$dbname = "webshop"; // 你的数据库名
 
-// Create a database connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+}
+
+// 自动插入测试商品（如果表为空）
+$result = $conn->query("SELECT COUNT(*) AS count FROM products");
+$row = $result->fetch_assoc();
+if ($row['count'] == 0) {
+    $conn->query("INSERT INTO products (name, price, description, image) VALUES
+    ('Artek Chair', 450, 'Classic Finnish wooden chair', 'artek44.jpg'),
+    ('Iittala Vase', 120, 'Hand-blown glass masterpiece', 'Iitttalla16.jpg'),
+    ('Marimekko Plate', 35, 'Bold Nordic pattern tableware', 'marimekko4dl.jpg'),
+    ('Nanny Still Glass', 200, 'Colorful Finnish art glass', 'nannystill001.jpg')");
 }
 ?>
