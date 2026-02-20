@@ -8,11 +8,12 @@
 </head>
 <body>
 
+    <!-- 导航栏 -->
     <nav>
         <div class="container">
-            <a href="index.html" class="logo">NORDIC ESSENCE</a>
+            <a href="index.php" class="logo">NORDIC ESSENCE</a>
             <ul class="nav-links">
-                <li><a href="#">Collections</a></li>
+                <li><a href="products.php">Collections</a></li> <!-- 指向商品页 -->
                 <li><a href="#">Designers</a></li>
                 <li><a href="#">Journal</a></li>
                 <li><a href="register.php">Register</a></li>
@@ -20,12 +21,13 @@
         </div>
     </nav>
 
+    <!-- 首页四个区块 -->
     <section class="large-section">
         <div class="section-image" style="background-image: url('images/Artek.jpg');"></div>
         <div class="section-content">
             <h1>Humanity in Space</h1>
             <p>Experience the harmony of Artek and modern Finnish living.</p>
-            <a href="#" class="btn">Explore Artek</a>
+            <a href="#" class="btn">Explore Artek</a> <!-- 保留介绍作用，不跳转 -->
         </div>
     </section>
 
@@ -34,7 +36,7 @@
         <div class="section-content">
             <h2>The Glass Light</h2>
             <p>Iittala Collection: Masterpieces of hand-blown brilliance.</p>
-            <a href="#" class="btn">View Iittala</a>
+            <a href="#" class="btn">View Iittala</a> <!-- 保留介绍作用，不跳转 -->
         </div>
     </section>
 
@@ -43,7 +45,7 @@
         <div class="section-content">
             <h2>Spring Tableware</h2>
             <p>Bold patterns meet everyday functional design.</p>
-            <a href="#" class="btn">Discover Marimekko</a>
+            <a href="#" class="btn">Discover Marimekko</a> <!-- 保留介绍作用，不跳转 -->
         </div>
     </section>
 
@@ -52,10 +54,11 @@
         <div class="section-content">
             <h2>Vibrant Sculptures</h2>
             <p>Art glass by Nanny Still: A symphony of color and form.</p>
-            <a href="#" class="btn">View Gallery</a>
+            <a href="#" class="btn">View Gallery</a> <!-- 保留介绍作用，不跳转 -->
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2026 Nordic Essence Studio. Built for Web Programming Course.</p>
     </footer>
